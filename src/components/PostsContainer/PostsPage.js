@@ -7,7 +7,7 @@ import "./Posts.css";
 
 import dummyData from '../../dummy-data';
 
-const PostsPage = () => {
+const PostsPage = (props) => {
   // set up state for your data
   const [data, setData] = useState(dummyData);
 

@@ -31,7 +31,7 @@ const dummyData = [
         ]
     },
     {
-        username: "dtebo",
+        username: "dtebo2",
         thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
         imageUrl: 'https://i.picsum.photos/id/1018/3914/2935.jpg',
         likes: 0,
@@ -41,7 +41,7 @@ const dummyData = [
         ]
     },
     {
-        username: "dtebo",
+        username: "dtebo3",
         thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
         imageUrl: 'https://i.picsum.photos/id/1060/5598/3732.jpg',
         likes: 0,
