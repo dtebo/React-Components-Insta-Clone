@@ -30,6 +30,9 @@
 }
 
 .logo {
-  font: normal 20px 'Dancing Script', sans-serif;
   width: 11%;
+}
+
+.logo span{
+  font: normal 20px 'Dancing Script', sans-serif;
 }
