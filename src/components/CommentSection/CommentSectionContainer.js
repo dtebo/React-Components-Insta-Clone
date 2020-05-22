@@ -14,7 +14,7 @@ const CommentSection = props => {
       {comments.map((comment) => {
         return <Comment key={comment.username} comment={comment} />
       })}
-      <CommentInput />
+      <CommentInput changeContent={(e) => console.log(e)} />
     </div>
   );
 };
