@@ -11,6 +11,10 @@ const Post = props => {
   // set up state for the likes
   const [likes, setLikes] = useState(props.post.likes);
 
+  function getComments(c){
+    props.passComments(c);
+  }
+
   return (
     <div className="post-border">
       <PostHeader
@@ -30,6 +34,7 @@ const Post = props => {
       <CommentSection
         postId={props.post.imageUrl}
         comments={props.post.comments}
+        getComments={getComments}
       />
     </div>
   );

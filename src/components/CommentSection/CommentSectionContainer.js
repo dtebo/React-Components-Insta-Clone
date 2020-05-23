@@ -16,6 +16,8 @@ const CommentSection = props => {
     comments.push(comment);
 
     setComments(comments); // Add new comment
+
+    props.getComments(comment);
   }
 
   return (
