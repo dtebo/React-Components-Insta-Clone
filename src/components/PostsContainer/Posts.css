@@ -3,6 +3,11 @@
   width: 33%;
   min-width: 400px;
   margin: 5px auto;
+  border-radius: 0px;
+  border-radius: 0px;
+  background: linear-gradient(315deg, #ffffff, #f1f1f1);
+  box-shadow:  -7px -7px 14px #e6e6e6, 
+              7px 7px 14px #ffffff;
 }
 .post-header{
   display: flex;

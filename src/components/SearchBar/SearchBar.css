@@ -15,6 +15,10 @@
 .search-form input {
   text-align: center;
   color: #262626;
+  border-radius: 0px;
+  background: #ffffff;
+  box-shadow:  -3px -3px 6px #e6e6e6, 
+              3px 3px 6px #ffffff;
 }
 
 .logo-image {
@@ -26,11 +30,32 @@
 }
 
 .social {
-  width: 50px;
+  border-radius: 126px;
+  background: linear-gradient(315deg, #e6e6e6, #ffffff);
+  box-shadow:  -5px -5px 10px #e6e6e6, 
+              5px 5px 10px #ffffff;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.svg-inline--fa{
+  color: rgb(80, 224, 235);
+  top: 6px;
+  position: relative;
 }
 
 .logo {
   width: 11%;
+  border-radius: 17px;
+  background: #ffffff;
+  box-shadow:  -5px -5px 10px #e6e6e6, 
+              5px 5px 10px #ffffff;
+}
+
+.logo svg{
+  top: 3px;
+  position: relative;
 }
 
 .logo span{
