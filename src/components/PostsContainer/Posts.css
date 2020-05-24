@@ -4,10 +4,9 @@
   min-width: 400px;
   margin: 5px auto;
   border-radius: 0px;
-  border-radius: 0px;
-  background: linear-gradient(315deg, #ffffff, #f1f1f1);
-  box-shadow:  -7px -7px 14px #e6e6e6, 
-              7px 7px 14px #ffffff;
+  background: #fafafa;
+  box-shadow:  13px 13px 26px #f2f2f2, 
+              -13px -13px 26px #ffffff;
 }
 .post-header{
   display: flex;
@@ -18,8 +17,8 @@
   font-weight: bold;
 }
 .post-border {
-  border: 1px solid #d3d3d3;
-  margin: 15px 0;
+  border: 1px solid #fafafa;
+  margin: 25px 0;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 .post-image-wrapper {

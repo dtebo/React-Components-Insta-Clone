@@ -11,10 +11,6 @@ const PostsPage = (props) => {
   // set up state for your data
   const [data, setData] = useState(dummyData);
 
-  function passComments(postToUpdate){
-    console.log(data, postToUpdate);
-  }
-
   useEffect(() => {
     const filteredData = dummyData.filter((item) => {
       return item.username.includes(props.search);
@@ -27,7 +23,7 @@ const PostsPage = (props) => {
     <div className="posts-container-wrapper">
       {/* map through data here to return a Post and pass data as props to Post */}
       {data.map((post) => {
-        return <Post key={post.username} post={post} passComments={passComments} />;
+        return <Post key={post.username} post={post} />;
       })}
     </div>
   );
